@@ -1,0 +1,11 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: nicoleliu
+resources:
+  - config-map.yaml
+  - deployment-project.yaml
+  - deployment-redis.yaml
+  - service-project.yaml
+  - service-redis.yaml
+

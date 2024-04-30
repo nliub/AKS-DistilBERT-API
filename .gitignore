@@ -1,0 +1,4 @@
+distilbert_local_model/
+downloadmodel.py
+.DS_Store
+**/__pycache__/
